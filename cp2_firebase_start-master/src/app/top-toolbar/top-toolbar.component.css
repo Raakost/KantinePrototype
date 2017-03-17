@@ -1,0 +1,15 @@
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.top-toolbar {
+  background-color: #999933;
+  opacity: 0.8;
+  color: antiquewhite;
+}
+.top-toolbar .button {
+  font-weight: bold;
+}
+.toolbar-hr {
+  font-size: 1px;
+}
