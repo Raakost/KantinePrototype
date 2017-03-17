@@ -1,25 +1,65 @@
 <cp-top-toolbar></cp-top-toolbar>
+<div fxLayout="row" fxFlex="100">
+  <md-card fxLayout="column" fxFlex="33.33">
+    <md-card-title-group class="create-menu-title">Opret Morgenmads menu</md-card-title-group>
+    <md-input-container>
+      <input mdInput placeholder="Morgenmad" value="Rundstykker">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Morgenmad" value="Pølsehorn">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Morgenmad" value="Mini pizza">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Morgenmad" value="Byg din egen burger">
+    </md-input-container>
+    <md-card-actions class="example-button-row">
+      <button md-raised-button>Gem menu</button>
+    </md-card-actions>
+  </md-card>
 
-<div FxFlexFill [fxLayout]="row" fxLayoutAlign="center center">
-  <md-card>
+  <md-card fxLayout="column" fxFlex="33.33">
+    <md-card-title-group class="create-menu-title">Opret Frokost menu</md-card-title-group>
     <md-input-container>
-      <md-card-title>Morgenmad</md-card-title>
-      <input mdInput placeholder="">
-      <button md-raised-button>Tilføj billeder</button>
+      <input mdInput placeholder="Frokost" value="Flæskesteg">
     </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Frokost" value="Tomat suppe">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Frokost" value="Broccoli salat">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Frokost" value="Bønne salat">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Frokost" value="Brød og pålæg">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Frokost">
+    </md-input-container>
+    <md-card-actions class="example-button-row">
+      <button md-raised-button>Gem menu</button>
+    </md-card-actions>
   </md-card>
-  <md-card>
+
+  <md-card fxLayout="column" fxFlex="33.33">
+    <md-card-title-group class="create-menu-title">Opret Eftermiddags menu</md-card-title-group>
     <md-input-container>
-      <md-card-title>Frokost</md-card-title>
-      <input mdInput placeholder="">
-      <button md-raised-button>Tilføj billeder</button>
+      <input mdInput placeholder="Eftermiddag" value="Chokolade kage">
     </md-input-container>
-  </md-card>
-  <md-card>
     <md-input-container>
-      <md-card-title>Eftermiddag</md-card-title>
-      <input mdInput placeholder="">
-      <button md-raised-button>Tilføj billeder</button>
+      <input mdInput placeholder="Eftermiddag" value="Scones">
     </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Eftermiddag">
+    </md-input-container>
+    <md-input-container>
+      <input mdInput placeholder="Eftermiddag">
+    </md-input-container>
+    <md-card-actions class="example-button-row">
+      <button md-raised-button>Gem menu</button>
+    </md-card-actions>
   </md-card>
 </div>

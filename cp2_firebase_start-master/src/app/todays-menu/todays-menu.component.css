@@ -1,3 +1,9 @@
-.md-card-image {
-  
+.menu-date-title {
+  font-weight: bolder;
+  text-align: center;
 }
+.md-card-image {
+  margin:0 auto;
+  display: block;
+}
+
